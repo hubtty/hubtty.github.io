@@ -11,14 +11,14 @@ header:
 excerpt: >
   A console-based interface for Github code reviews.
 feature_row:
-  - image_path: /assets/images/02-PRs-list-small.png
+  - image_path: /assets/images/self-growth.png
     alt: "workflow"
     title: "Review at scale"
     excerpt: "The interface is designed to support a workflow similar to reading network news or mail and to deal with a large number of PRs."
     url: "#review-at-scale"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/03-PR-view.png
+  - image_path: /assets/images/speedometer.png
     alt: "review faster"
     title: "Review faster"
     excerpt: "Because Hubtty works on files locally, all actions are instantaneous and more enjoyable to work with."
@@ -32,7 +32,7 @@ feature_row:
   #  url: "/docs/layouts/"
   #  btn_class: "btn--primary"
   #  btn_label: "Learn more"
-  - image_path: /assets/images/04-Diff-view.png
+  - image_path: /assets/images/ui.png
     alt: "Highly customizable"
     title: "Highly customizable"
     excerpt: "Colors, keybindings, shortcuts... Customize almost every aspects of Hubtty to match your preferences."
