@@ -49,11 +49,11 @@ feature_row:
 [![Repositories list](/assets/images/01-Repositories-list-small.png)](/assets/images/01-Repositories-list.png){: .align-right}
 
 The interface is designed to support a workflow similar to reading network news
-or mail. In particular, it is designed to deal with a large number of Pull
-Requests across a large number of repositories.
+or mail. In particular, it is designed to deal with a large number of pull
+requests across a large number of repositories.
 
 It is also designed to focus on things that matter during code review:
-- branch on which the PR is submitted
+- branch on which the pull request is submitted
 - last update
 - CI test results
 - existing reviews
@@ -61,17 +61,18 @@ It is also designed to focus on things that matter during code review:
 
 [![PRs list](/assets/images/02-PRs-list-small.png)](/assets/images/02-PRs-list.png){: .align-right}
 
-And reduce noise:
+And Hubtty is here to help you reduce noise:
 - easily hide pull requests you're not interested in
-- reviewed PRs are hidden and re-appear once they are updated
+- reviewed pull requests are hidden and re-appear once they are updated
 - filter robot comments
 
 # Review while on the go
 
 [![PRs list](/assets/images/03-PR-view-small.png)](/assets/images/03-PR-view.png){: .align-right}
 
-Hubtty works seamlessly offline or online. Hubtty syncs information about pull
-requests in subscribed repositories to a local database and local git repos.
+Hubtty works seamlessly offline or online. It syncs information about pull
+requests in subscribed repositories to a local database and local git
+repositories.
 All of the actions that it performs are first recorded in that database, and
 are then transmitted to Github. If Hubtty is unable to contact Github for any
 reason, it will continue to operate against the local database, and once it
@@ -86,22 +87,20 @@ before uploading the review.
 # Review faster
 
 User actions modify locally cached content and need not wait for server
-interaction, making the whole experience of navigating Pull Requests much more
+interaction, making the whole experience of navigating pull requests much more
 enjoyable.
 
-[![PRs list](/assets/images/03-PR-view-small.png)](/assets/images/03-PR-view.png){: .align-left}
+[![PRs list](/assets/images/05-Search-dashboard-small.png)](/assets/images/05-Search-dashboard.png){: .align-left}
 
-Because Hubtty downloads all pull requests to local git repos, a single command
-instructs it to checkout a pull request into that repo for detailed examination
-or testing of larger pull requests.
+Because Hubtty downloads all pull requests to local git repositories, a single
+command instructs it to checkout a pull request into that repository for
+detailed examination or testing of larger pull requests.
 
 Hubtty also offers quality of life improvements such as
 [dashboards](https://hubtty.readthedocs.io/en/latest/configuration.html#dashboards)
 for saved search queries,
 [hotkeys](https://hubtty.readthedocs.io/en/latest/configuration.html#reviewkeys)
-to perform immediate reviews, or the ability to mass edit PRs.
-
-TODO Add a screenshot of a search dashboard
+to perform immediate reviews, or the ability to mass edit pull requests.
 
 
 # Highly customizable
@@ -109,11 +108,11 @@ TODO Add a screenshot of a search dashboard
 Hubtty includes [many
 options](https://hubtty.readthedocs.io/en/latest/configuration.html#configuration-reference)
 to integrate better with your environment and preferences:
-- Re-bind every action with custom
+- re-bind every action with custom
 [keybindings](https://hubtty.readthedocs.io/en/latest/configuration.html#keymaps)
-to take advantage of your muscle-memory.
-- Change the look and feel with a custom
-[palette](https://hubtty.readthedocs.io/en/latest/configuration.html#palettes) for eye-candy themes.
-- Create links pointing to your issue tracker when pull requests reference issues, using [custom matchers](https://hubtty.readthedocs.io/en/latest/configuration.html#commentlinks).
-- Define [review keys](https://hubtty.readthedocs.io/en/latest/configuration.html#reviewkeys) to leave pre-defined comments with a single key stroke.
-- And many more...
+to take advantage of your muscle-memory
+- change the look and feel with a custom
+[palette](https://hubtty.readthedocs.io/en/latest/configuration.html#palettes) to create beautiful themes
+- create links pointing to your issue tracker when pull requests reference issues, using [custom matchers](https://hubtty.readthedocs.io/en/latest/configuration.html#commentlinks)
+- define [review keys](https://hubtty.readthedocs.io/en/latest/configuration.html#reviewkeys) to leave predefined comments with a single key stroke
+- and many more...
